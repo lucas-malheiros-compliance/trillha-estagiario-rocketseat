@@ -21,7 +21,7 @@
 }
 
 body {
-    font: var(--text-lg);
+    font: var(--text-md);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
