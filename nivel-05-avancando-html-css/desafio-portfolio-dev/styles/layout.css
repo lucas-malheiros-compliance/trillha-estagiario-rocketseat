@@ -1,0 +1,38 @@
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    /* Creates 4 columns of equal width */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* Strict width as requested */
+    width: 1366px;
+
+    /* Adds a gap between the items */
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #2d3436;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* One single column */
+    width: 1366px;
+    /* This ensures sections are stacked but respect the width */
+}

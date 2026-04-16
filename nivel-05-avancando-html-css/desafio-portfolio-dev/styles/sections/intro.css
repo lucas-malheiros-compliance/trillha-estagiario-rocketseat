@@ -1,0 +1,6 @@
+.section-intro {
+    height: 600px;
+    /* Or min-height */
+    background-color: #000000;
+    padding: 40px;
+}

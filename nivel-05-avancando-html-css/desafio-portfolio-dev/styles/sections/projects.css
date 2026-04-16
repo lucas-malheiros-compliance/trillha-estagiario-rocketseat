@@ -1,0 +1,6 @@
+.section-projects {
+    height: 600px;
+    /* Or min-height */
+    background-color: #ffffff;
+    padding: 40px;
+}
