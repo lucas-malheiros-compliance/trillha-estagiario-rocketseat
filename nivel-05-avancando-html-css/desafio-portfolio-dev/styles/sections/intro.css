@@ -1,6 +1,25 @@
 .section-intro {
-    height: 600px;
-    /* Or min-height */
-    background-color: #000000;
+    height: 750px;
+    border: 1px solid #ccc;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top,
+.bottom {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
 }

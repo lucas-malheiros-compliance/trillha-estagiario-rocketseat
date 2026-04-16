@@ -1,6 +1,35 @@
 .section-projects {
-    height: 600px;
-    /* Or min-height */
-    background-color: #ffffff;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 1040px;
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.projects-header {
+    height: 61px;
+    padding: 72px 163px 52px 163px;
+    box-sizing: content-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(2, 280px);
+
+    gap: 20px;
+    margin: auto;
+}
+
+.project-box {
+    width: 330px;
+    height: 280px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
 }
