@@ -123,7 +123,7 @@ function inputChange() {
     console.log("O input mudou");
 }
 */
-
+/*
 const input = document.querySelector("input")
 input.addEventListener("input", (e) => {
     value = input.value
@@ -147,4 +147,22 @@ form.addEventListener("submit", (e) => {
 
         alert("Valor inválido")
     }
-})
+})*/
+
+// CONTEÚDO DE DE BUGGING!
+const input = document.querySelector("input")
+const form = document.querySelector("form")
+
+form.onsubmit = (e) => {
+    e.preventDefault()
+
+    const value = input.value
+    const regexHasNumber = /\d+/g
+
+    if (regexHasNumber.test(value)) {
+        alert("O texto contém números. Por favor, digite corretamente.")
+    } else {
+        alert("Enviado")
+    }
+
+}
